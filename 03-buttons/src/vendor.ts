@@ -14,5 +14,6 @@ import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 import 'jquery';
+import 'hammerjs/src/hammer.js';
 
 

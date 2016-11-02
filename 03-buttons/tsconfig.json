@@ -5,8 +5,12 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
-    "noEmitHelpers": true
-  },
+    "noEmitHelpers": true,
+    "typeRoots": [ "node_modules/@types" ],
+    "types": [
+      "hammerjs"
+    ]
+  },  
   "compileOnSave": false,
   "buildOnSave": false
 }

@@ -1,3 +1,16 @@
+# fixed hammerjs problem
+## install hammerjs
+```
+npm install --save hammerjs @types/hammerjs
+```
+## add codes belong to tsconfig.json
+```
+"typeRoots": [ "node_modules/@types" ],
+"types": [
+    "hammerjs"
+]
+```
+
 # md-button
 
 `md-button` is an HTML `<button>` or `<a>` tag enhanced with styling and animation to match the
