@@ -15,6 +15,18 @@ npm install --save hammerjs @types/hammerjs
 ```
 typings i dt~hammerjs --global --save
 ```
+Bug:
+```
+Uncaught ReferenceError: TOUCH_ACTION_COMPUTE is not defined hammer.js:37
+```
+Fix: add codes to vendor.ts
+```
+import 'hammerjs/hammer.js';
+```
+NOT 
+```
+import 'hammerjs/src/hammer.js';
+```
 
 # md-button
 
