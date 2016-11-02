@@ -11,6 +11,11 @@ npm install --save hammerjs @types/hammerjs
 ]
 ```
 
+## Another way to do without modifying tsconfig.json
+```
+typings i dt~hammerjs --global --save
+```
+
 # md-button
 
 `md-button` is an HTML `<button>` or `<a>` tag enhanced with styling and animation to match the
